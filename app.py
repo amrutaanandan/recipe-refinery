@@ -17,7 +17,7 @@ import requests
 
 
 app = Flask(__name__)
-app.secret_key = 'your_secret_key'  
+app.secret_key = "YOUR SECRET KEY HERE"
 # Configure the database
 db = yaml.safe_load(open("db.yaml"))
 app.config['MYSQL_HOST'] = db['mysql_host']
@@ -34,7 +34,7 @@ RECIPE_LIST3 = []
 mysql = MySQL(app)
 
 def chatbot(msg):
-    openai.api_key = "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"
+    openai.api_key = "YOUR API KEY HERE"
 
     conversation = []
 
