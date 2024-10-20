@@ -480,7 +480,7 @@ def get_recipe_details(recipe_name):
         return recipe_details
     else:
         return None
-PEXELS_API_KEY = 'mx60v3BOk6ECvGbPPNIGkfck098NRh2VuIYDTMBSmUDEFVSxOCaixEAX'
+PEXELS_API_KEY = 'YOUR_KEY_HERE'
 # Helper function to fetch recipe image from Pexels
 def get_recipe_image(recipe_name):
     search_query = f'{recipe_name} recipe'  # Append "recipe" to the search query for better results
